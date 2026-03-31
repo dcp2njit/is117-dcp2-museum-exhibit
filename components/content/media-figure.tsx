@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { ObjectLabel } from "@/components/content/object-label";
 import type { ArchiveItem, SourceRecord } from "@/lib/content/types";
+import { withSiteBasePath } from "@/lib/site";
 
 type MediaFigureProps = {
   item: ArchiveItem;
@@ -16,7 +17,7 @@ export function MediaFigure({ item, source }: MediaFigureProps) {
       <div className={isDiagram ? "media-figure__image-wrap media-figure__image-wrap--diagram" : "media-figure__image-wrap"}>
         <Image
           className={isDiagram ? "media-figure__image media-figure__image--diagram" : "media-figure__image"}
-          src={item.image}
+          src={withSiteBasePath(item.image)}
           alt={item.alt}
           width={1200}
           height={900}

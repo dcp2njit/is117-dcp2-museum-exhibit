@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import type { HomeContent } from "@/lib/content/types";
+import { withSiteBasePath } from "@/lib/site";
 
 type HomeHeroProps = {
   content: HomeContent;
@@ -43,7 +44,7 @@ export function HomeHero({ content }: HomeHeroProps) {
               <div className="home-collage__image-wrap">
                 <Image
                   className="home-collage__image"
-                  src={item.image}
+                  src={withSiteBasePath(item.image)}
                   alt={item.alt}
                   width={1200}
                   height={900}

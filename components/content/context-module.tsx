@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import type { ContextBlock, SourceRecord } from "@/lib/content/types";
+import { withSiteBasePath } from "@/lib/site";
 
 type ContextModuleProps = {
   id: string;
@@ -25,7 +26,7 @@ export function ContextModule({ id, block, source }: ContextModuleProps) {
         <div className="support-figure__image-wrap">
           <Image
             className="support-figure__image"
-            src={block.supportImage}
+            src={withSiteBasePath(block.supportImage)}
             alt={block.supportAlt}
             width={1200}
             height={900}
