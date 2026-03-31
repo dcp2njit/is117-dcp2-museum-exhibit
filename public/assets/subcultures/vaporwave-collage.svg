@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vaporwave collage</title>
+  <desc id="desc">A simplified vaporwave poster with sunset, grid floor, bust silhouette, and short label blocks.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="55%" stop-color="#ff6fb1"/>
+      <stop offset="100%" stop-color="#ffb36b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="850" cy="190" r="126" fill="#ffd37c" opacity="0.95"/>
+  <path d="M0 646H1200" stroke="#7ef9ff" stroke-width="6"/>
+  <g stroke="#7ef9ff" stroke-opacity="0.5">
+    <path d="M0 646L600 378L1200 646"/>
+    <path d="M180 646L600 428L1020 646"/>
+    <path d="M324 646L600 466L876 646"/>
+    <path d="M130 646V900"/>
+    <path d="M278 646V900"/>
+    <path d="M426 646V900"/>
+    <path d="M574 646V900"/>
+    <path d="M722 646V900"/>
+    <path d="M870 646V900"/>
+    <path d="M1018 646V900"/>
+  </g>
+  <rect x="88" y="88" width="324" height="430" rx="30" fill="#f6edf9" fill-opacity="0.88"/>
+  <path d="M250 184C298 184 336 228 336 282V426H164V282C164 228 202 184 250 184Z" fill="#e1d8e6"/>
+  <circle cx="250" cy="154" r="54" fill="#e1d8e6"/>
+  <text x="490" y="170" fill="#f7f4ff" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="6">VAPORWAVE</text>
+  <text x="490" y="266" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="76">retro dream</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30">
+    <rect x="492" y="334" width="206" height="64" rx="18" fill="#ffffff" fill-opacity="0.18"/>
+    <rect x="722" y="334" width="206" height="64" rx="18" fill="#ffffff" fill-opacity="0.18"/>
+    <rect x="607" y="420" width="206" height="64" rx="18" fill="#ffffff" fill-opacity="0.18"/>
+    <text x="556" y="378" fill="#ffffff">MALL</text>
+    <text x="780" y="378" fill="#ffffff">GLITCH</text>
+    <text x="647" y="464" fill="#ffffff">NOSTALGIA</text>
+  </g>
+</svg>

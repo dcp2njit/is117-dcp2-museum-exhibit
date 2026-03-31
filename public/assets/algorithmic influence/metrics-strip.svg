@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Metrics strip</title>
+  <desc id="desc">A simplified metrics board showing four large performance tiles and a trend line.</desc>
+  <rect width="1200" height="760" fill="#edf8f3"/>
+  <rect x="44" y="44" width="1112" height="672" rx="28" fill="#f7fcfa" stroke="#0e1d17" stroke-opacity="0.12"/>
+  <text x="88" y="108" fill="#007a58" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="4">METRICS STRIP</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <rect x="88" y="184" width="230" height="186" rx="24" fill="#ffffff" stroke="#0e1d17" stroke-opacity="0.12"/>
+    <text x="134" y="240" fill="#4a5e57" font-size="24">CTR</text>
+    <text x="134" y="324" fill="#0e1d17" font-size="72">+3.2</text>
+    <rect x="346" y="184" width="230" height="186" rx="24" fill="#ffffff" stroke="#0e1d17" stroke-opacity="0.12"/>
+    <text x="392" y="240" fill="#4a5e57" font-size="24">RETENTION</text>
+    <text x="392" y="324" fill="#0e1d17" font-size="72">7D</text>
+    <rect x="604" y="184" width="230" height="186" rx="24" fill="#ffffff" stroke="#0e1d17" stroke-opacity="0.12"/>
+    <text x="650" y="240" fill="#4a5e57" font-size="24">DEPTH</text>
+    <text x="650" y="324" fill="#0e1d17" font-size="72">68%</text>
+    <rect x="862" y="184" width="206" height="186" rx="24" fill="#ffffff" stroke="#0e1d17" stroke-opacity="0.12"/>
+    <text x="908" y="240" fill="#4a5e57" font-size="24">TEST</text>
+    <text x="908" y="324" fill="#0e1d17" font-size="72">B</text>
+  </g>
+  <path d="M88 520C220 470 318 564 440 524S650 430 760 468 948 610 1068 552" fill="none" stroke="#00a36c" stroke-width="14" stroke-linecap="round"/>
+  <text x="88" y="642" fill="#22342e" font-family="Arial, Helvetica, sans-serif" font-size="30">Design judgment becomes scorekeeping.</text>
+</svg>

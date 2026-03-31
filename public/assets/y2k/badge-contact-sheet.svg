@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Badge contact sheet</title>
+  <desc id="desc">A simplified contact sheet of colorful badge tiles with short labels.</desc>
+  <rect width="1200" height="780" fill="#efe7d9"/>
+  <rect x="44" y="44" width="1112" height="692" rx="28" fill="#f8f1e5" stroke="#17120e" stroke-opacity="0.14"/>
+  <text x="88" y="108" fill="#6d2d1d" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="4">BADGE CONTACT SHEET</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">
+    <rect x="88" y="172" width="222" height="94" rx="14" fill="#0a3a7a"/>
+    <text x="128" y="228" fill="#ffffff">NETSCAPE</text>
+    <rect x="344" y="172" width="222" height="94" rx="14" fill="#17120e"/>
+    <text x="392" y="228" fill="#f8d363">NOTEPAD</text>
+    <rect x="600" y="172" width="222" height="94" rx="14" fill="#b8146b"/>
+    <text x="656" y="228" fill="#ffffff">WEBRING</text>
+    <rect x="856" y="172" width="212" height="94" rx="14" fill="#246b39"/>
+    <text x="908" y="228" fill="#ffffff">GUESTBOOK</text>
+    <rect x="88" y="304" width="222" height="94" rx="14" fill="#c74224"/>
+    <text x="124" y="360" fill="#ffffff">UNDER CONST.</text>
+    <rect x="344" y="304" width="222" height="94" rx="14" fill="#522f91"/>
+    <text x="420" y="360" fill="#ffffff">FLASH</text>
+    <rect x="600" y="304" width="222" height="94" rx="14" fill="#0f6879"/>
+    <text x="670" y="360" fill="#ffffff">EMAIL</text>
+    <rect x="856" y="304" width="212" height="94" rx="14" fill="#8c5814"/>
+    <text x="918" y="360" fill="#ffffff">LINKS</text>
+  </g>
+  <text x="88" y="510" fill="#17120e" font-family="Georgia, 'Times New Roman', serif" font-size="54">Small graphics, big signals.</text>
+</svg>

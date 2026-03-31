@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Remix channels map</title>
+  <desc id="desc">A simplified network map connecting boards, chats, zines, and swap tables.</desc>
+  <rect width="1200" height="780" fill="#f6e8cd"/>
+  <rect x="44" y="44" width="1112" height="692" rx="28" fill="#fff6e7" stroke="#17120e" stroke-opacity="0.14"/>
+  <text x="88" y="108" fill="#c15e00" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="4">REMIX CHANNELS</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    <rect x="120" y="314" width="240" height="120" rx="28" fill="#ffffff" stroke="#17120e" stroke-opacity="0.14"/>
+    <text x="176" y="386" fill="#17120e">BOARDS</text>
+    <rect x="478" y="190" width="240" height="120" rx="28" fill="#ffffff" stroke="#17120e" stroke-opacity="0.14"/>
+    <text x="550" y="262" fill="#17120e">CHATS</text>
+    <rect x="840" y="314" width="240" height="120" rx="28" fill="#ffffff" stroke="#17120e" stroke-opacity="0.14"/>
+    <text x="924" y="386" fill="#17120e">ZINES</text>
+    <rect x="478" y="500" width="240" height="120" rx="28" fill="#ffffff" stroke="#17120e" stroke-opacity="0.14"/>
+    <text x="520" y="572" fill="#17120e">SWAPS</text>
+  </g>
+  <g stroke="#c15e00" stroke-width="10" stroke-linecap="round">
+    <path d="M360 374H478"/>
+    <path d="M718 250L840 374"/>
+    <path d="M598 310V500"/>
+    <path d="M360 374L478 560"/>
+    <path d="M718 560L840 374"/>
+  </g>
+  <text x="88" y="684" fill="#5d4d3e" font-family="Arial, Helvetica, sans-serif" font-size="30">Artifacts circulate across many rooms, not one official pipeline.</text>
+</svg>

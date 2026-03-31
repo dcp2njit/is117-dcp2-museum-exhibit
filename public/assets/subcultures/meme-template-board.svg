@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Meme template board</title>
+  <desc id="desc">A simplified meme-format diagram showing an image panel, caption zones, and a four-step remix chain.</desc>
+  <rect width="1200" height="900" fill="#fff2d7"/>
+  <text x="88" y="108" fill="#c15e00" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="4">MEME FORMAT</text>
+  <rect x="72" y="148" width="430" height="596" rx="28" fill="#ffffff" stroke="#17120e" stroke-opacity="0.12"/>
+  <rect x="116" y="194" width="342" height="266" rx="18" fill="#f8d94f"/>
+  <text x="180" y="344" fill="#17120e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">IMAGE PANEL</text>
+  <rect x="116" y="506" width="342" height="66" rx="14" fill="#f4eee1"/>
+  <rect x="116" y="598" width="342" height="66" rx="14" fill="#f4eee1"/>
+  <text x="144" y="548" fill="#5d4d3e" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">TOP TEXT</text>
+  <text x="144" y="640" fill="#5d4d3e" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">BOTTOM TEXT</text>
+  <text x="568" y="218" fill="#c15e00" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="4">RELAY</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <circle cx="604" cy="310" r="34" fill="#17120e"/>
+    <text x="592" y="322" fill="#ffffff" font-size="28">1</text>
+    <text x="662" y="322" fill="#17120e" font-size="36">Recognize</text>
+    <circle cx="604" cy="408" r="34" fill="#17120e"/>
+    <text x="592" y="420" fill="#ffffff" font-size="28">2</text>
+    <text x="662" y="420" fill="#17120e" font-size="36">Replace</text>
+    <circle cx="604" cy="506" r="34" fill="#17120e"/>
+    <text x="592" y="518" fill="#ffffff" font-size="28">3</text>
+    <text x="662" y="518" fill="#17120e" font-size="36">Remix</text>
+    <circle cx="604" cy="604" r="34" fill="#17120e"/>
+    <text x="592" y="616" fill="#ffffff" font-size="28">4</text>
+    <text x="662" y="616" fill="#17120e" font-size="36">Repost</text>
+  </g>
+  <text x="568" y="726" fill="#5d4d3e" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Template over original.</text>
+</svg>

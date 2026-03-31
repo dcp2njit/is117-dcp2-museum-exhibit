@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Design tokens board</title>
+  <desc id="desc">A simplified token board showing color, spacing, radius, and type as large visual blocks.</desc>
+  <rect width="1200" height="820" fill="#eef3ff"/>
+  <rect x="44" y="44" width="1112" height="732" rx="28" fill="#ffffff" stroke="#1b2437" stroke-opacity="0.12"/>
+  <text x="88" y="108" fill="#2851a3" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="4">DESIGN TOKENS</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="88" y="196" fill="#42526b" font-size="28">COLOR</text>
+    <rect x="88" y="224" width="156" height="112" rx="18" fill="#2d6cdf"/>
+    <rect x="272" y="224" width="156" height="112" rx="18" fill="#7ea7f7"/>
+    <rect x="456" y="224" width="156" height="112" rx="18" fill="#dbe7ff"/>
+    <text x="88" y="454" fill="#42526b" font-size="28">SPACING</text>
+    <rect x="88" y="488" width="36" height="36" fill="#2d6cdf"/>
+    <rect x="154" y="476" width="60" height="60" fill="#2d6cdf"/>
+    <rect x="246" y="458" width="96" height="96" fill="#2d6cdf"/>
+    <rect x="380" y="432" width="148" height="148" fill="#2d6cdf"/>
+    <text x="694" y="196" fill="#42526b" font-size="28">RADIUS</text>
+    <rect x="694" y="224" width="140" height="104" rx="10" fill="#f4f7ff" stroke="#2d6cdf"/>
+    <rect x="870" y="224" width="140" height="104" rx="24" fill="#f4f7ff" stroke="#2d6cdf"/>
+    <rect x="694" y="404" width="316" height="156" rx="28" fill="#f4f7ff" stroke="#2d6cdf"/>
+    <text x="742" y="500" fill="#121826" font-size="48">TYPE</text>
+  </g>
+</svg>

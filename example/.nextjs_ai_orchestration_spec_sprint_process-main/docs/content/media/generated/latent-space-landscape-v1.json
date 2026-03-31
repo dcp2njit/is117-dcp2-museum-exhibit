@@ -1,0 +1,13 @@
+{
+  "assetPath": "public/media/generated/latent-space-landscape-v1.png",
+  "metadataRecordPath": "docs/content/media/generated/latent-space-landscape-v1.md",
+  "generatedOn": "2026-03-12",
+  "generationTool": "eai image",
+  "prompt": "Conceptual educational illustration of latent space for an AI history site: a warm cartographic landscape of semantic neighborhoods with softly glowing clusters, gentle ridgelines and valleys, abstract pathways between nearby regions, no text labels, no numbers, no axes, no charts, no code, no fake scientific diagram, not a literal model interior, editorial clarity, Swiss-inspired composition, parchment, copper, sand, and charcoal palette",
+  "revisedPrompt": "Conceptual educational illustration of latent space for an AI history site: a warm cartographic landscape of semantic neighborhoods with softly glowing clusters, gentle ridgelines and valleys, abstract pathways between nearby regions, no text labels, no numbers, no axes, no charts, no code, no fake scientific diagram, not a literal model interior, editorial clarity, Swiss-inspired composition, parchment, copper, sand, and charcoal palette, high quality, detailed, professional, masterpiece, fine art, beautiful composition, perfect lighting",
+  "guardrails": [
+    "Conceptual teaching visual only, not documentary evidence.",
+    "Do not present as a literal map of a model's internal state.",
+    "Do not reuse this prompt family for portraits of real people or institutions."
+  ]
+}
