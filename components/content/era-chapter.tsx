@@ -17,20 +17,10 @@ type EraChapterProps = {
 
 export function EraChapter({ era, references }: EraChapterProps) {
   const sourceMap = new Map(references.map((source) => [source.id, source]));
-  const sectionItems = [
-    { id: "visual-archive", label: "Visual Archive" },
-    ...era.contextBlocks.map((block) => ({ id: block.id, label: block.title })),
-    { id: "voice-fragment", label: "Voice Fragment" },
-    { id: "commentary", label: "Commentary" },
-    { id: "design-impact", label: "Design Impact" },
-    { id: "chronology", label: "Chronology" },
-    { id: "references", label: "References" },
-    ...(!era.next ? [{ id: "epilogue", label: "Final Room" }] : []),
-  ];
 
   return (
     <article className={`era-chapter theme--${era.themeKey}`}>
-      <EraHero era={era} sections={sectionItems} />
+      <EraHero era={era} />
 
       <ArchiveGrid
         id="visual-archive"

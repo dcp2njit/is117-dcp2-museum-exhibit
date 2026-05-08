@@ -17,10 +17,15 @@ export default function HomePage() {
   const sourceGroups = getSourceArchiveGroups();
 
   return (
-    <main id="main-content" className="shell page-stack">
+    <main id="main-content" className="page-stack home-page">
       <HomeHero content={homeContent} />
       <SectionDivider label="Orientation" />
-      <EraMapGrid eras={eraRecords} title={homeContent.overviewTitle} text={homeContent.overviewText} />
+      <EraMapGrid
+        eras={eraRecords}
+        previews={homeContent.heroCollage}
+        title={homeContent.overviewTitle}
+        text={homeContent.overviewText}
+      />
       <SectionDivider label="How to read this show" />
       <ReadingFrame />
       <SectionDivider label="Continue into the dossier" />

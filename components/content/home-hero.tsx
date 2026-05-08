@@ -12,16 +12,18 @@ export function HomeHero({ content }: HomeHeroProps) {
   return (
     <section className="hero-block home-hero">
       <div className="hero-copy">
-        <p className="section-eyebrow">{content.eyebrow}</p>
-        <h1 className="display-title">{content.title}</h1>
-        <p className="hero-lede">{content.lede}</p>
-        <div className="hero-actions">
-          <Link className="button-link button-link--primary" href={content.primaryAction.href}>
-            {content.primaryAction.label}
-          </Link>
-          <Link className="button-link button-link--secondary" href={content.secondaryAction.href}>
-            {content.secondaryAction.label}
-          </Link>
+        <div className="home-hero__poster">
+          <p className="section-eyebrow">{content.eyebrow}</p>
+          <h1 className="display-title">{content.title}</h1>
+          <p className="hero-lede">{content.lede}</p>
+          <div className="hero-actions home-hero__actions">
+            <Link className="button-link button-link--primary" href={content.primaryAction.href}>
+              {content.primaryAction.label}
+            </Link>
+            <Link className="button-link button-link--secondary" href={content.secondaryAction.href}>
+              {content.secondaryAction.label}
+            </Link>
+          </div>
         </div>
         <aside className="hero-note home-hero__note">
           <p className="section-eyebrow">Exhibit orientation</p>
@@ -39,8 +41,12 @@ export function HomeHero({ content }: HomeHeroProps) {
       </div>
       <div className="hero-side home-hero__side">
         <section className="home-collage" aria-label="Exhibit collage">
-          {content.heroCollage.map((item) => (
-            <Link className="home-collage__tile" href={item.href} key={item.href}>
+          {content.heroCollage.map((item, index) => (
+            <Link
+              className={index === 0 ? "home-collage__tile home-collage__tile--featured" : "home-collage__tile home-collage__tile--artifact"}
+              href={item.href}
+              key={item.href}
+            >
               <div className="home-collage__image-wrap">
                 <Image
                   className="home-collage__image"

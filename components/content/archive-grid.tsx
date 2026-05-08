@@ -13,7 +13,7 @@ export function ArchiveGrid({ id, title, intro, items, references }: ArchiveGrid
   const sourceMap = new Map(references.map((source) => [source.id, source]));
 
   return (
-    <section className="era-section" id={id}>
+    <section className="era-section" data-scrolly id={id}>
       <div className="section-heading">
         <p className="section-eyebrow">Visual archive</p>
         <h2>{title}</h2>

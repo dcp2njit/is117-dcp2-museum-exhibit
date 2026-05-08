@@ -8,7 +8,7 @@ type MilestoneStripProps = {
 
 export function MilestoneStrip({ id, title, items }: MilestoneStripProps) {
   return (
-    <section className="timeline-card era-section" id={id}>
+    <section className="timeline-card era-section" data-scrolly id={id}>
       <div className="section-heading">
         <p className="section-eyebrow">Chronology</p>
         <h2>{title}</h2>

@@ -21,15 +21,18 @@ const themeClassBySlug: Record<EraSlug, string> = {
 };
 
 export function SourceArchive({ groups, checklist }: SourceArchiveProps) {
-  const sectionItems = groups.map((group) => ({
-    id: `sources-${group.slug}`,
-    label: group.title,
-  }));
+  const sectionItems = [
+    { id: "source-dossier", label: "Dossier intro" },
+    ...groups.map((group) => ({
+      id: `sources-${group.slug}`,
+      label: group.title,
+    })),
+  ];
 
   return (
     <div className="source-archive">
-      <section className="source-archive__intro hero-block">
-        <div className="hero-copy">
+      <section className="source-archive__intro hero-block" data-scrolly id="source-dossier">
+        <div className="hero-copy source-archive__lead">
           <p className="section-eyebrow">Source archive</p>
           <h1 className="display-title">Documentary sources, asset leads, and rights notes</h1>
           <p className="hero-lede">
@@ -37,9 +40,8 @@ export function SourceArchive({ groups, checklist }: SourceArchiveProps) {
             References are grouped by gallery so provenance, reuse notes, and evidentiary purpose
             remain visible beside the exhibit narrative.
           </p>
-          <SectionNav items={sectionItems} label="Browse the archive by gallery" />
         </div>
-        <aside className="hero-note">
+        <aside className="hero-note source-archive__note">
           <p className="section-eyebrow">Collections care</p>
           <h2>Rights and licensing checklist</h2>
           <ul className="bullet-list">
@@ -50,10 +52,15 @@ export function SourceArchive({ groups, checklist }: SourceArchiveProps) {
         </aside>
       </section>
 
+      <div className="story-rail">
+        <SectionNav className="story-rail__nav" items={sectionItems} label="Browse the archive by gallery" />
+      </div>
+
       <div className="source-groups">
         {groups.map((group) => (
           <section
             className={`source-group ${themeClassBySlug[group.slug]}`}
+            data-scrolly
             id={`sources-${group.slug}`}
             key={group.slug}
           >

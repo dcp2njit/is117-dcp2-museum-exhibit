@@ -1,16 +1,14 @@
 import Link from "next/link";
 
-import { SectionNav } from "@/components/site/section-nav";
 import type { EraRecord } from "@/lib/content/types";
 
 type EraHeroProps = {
   era: EraRecord;
-  sections: Array<{ id: string; label: string }>;
 };
 
-export function EraHero({ era, sections }: EraHeroProps) {
+export function EraHero({ era }: EraHeroProps) {
   return (
-    <section className="era-hero-block" id="overview">
+    <section className="era-hero-block" data-scrolly id="overview">
       <div className="era-hero-block__copy">
         <p className="era-shell__meta">
           {era.eyebrow} · {era.years}
@@ -25,7 +23,6 @@ export function EraHero({ era, sections }: EraHeroProps) {
           {era.previous ? <Link href={era.previous.href}>{era.previous.label}</Link> : null}
           {era.next ? <Link href={era.next.href}>{era.next.label}</Link> : null}
         </div>
-        <SectionNav items={sections} label="In this gallery" />
       </div>
     </section>
   );

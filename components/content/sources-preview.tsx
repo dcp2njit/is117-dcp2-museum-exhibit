@@ -14,7 +14,7 @@ type SourcesPreviewProps = {
 
 export function SourcesPreview({ groups }: SourcesPreviewProps) {
   return (
-    <section className="source-preview" id="sources-preview">
+    <section className="source-preview" data-scrolly id="sources-preview">
       <div className="section-heading">
         <p className="section-eyebrow">Documentary archive</p>
         <h2>Sources are presented as part of the exhibition, not as fine print</h2>

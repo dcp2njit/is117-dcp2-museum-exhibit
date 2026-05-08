@@ -5,7 +5,7 @@ type CommentaryBlockProps = {
 
 export function CommentaryBlock({ id, paragraphs }: CommentaryBlockProps) {
   return (
-    <article className="essay-card" id={id}>
+    <article className="essay-card" data-scrolly id={id}>
       <p className="section-eyebrow">Era commentary</p>
       <h2>What changed visually</h2>
       {paragraphs.map((paragraph) => (
