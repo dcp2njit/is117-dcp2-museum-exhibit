@@ -1,5 +1,5 @@
 # IS117 Midterm
-# Museum Exhibit: Algorithmic Aesthetics
+# [Museum Exhibit: Algorithmic Aesthetics](https://dcp2njit.github.io/is117-dcp2-museum-exhibit/)
 
 Algorithmic Aesthetics is a digital museum exhibit about how online culture shaped graphic design. It follows four eras: early web aesthetics, platform standardization, algorithmic influence, and subcultures/anti-design.
 
